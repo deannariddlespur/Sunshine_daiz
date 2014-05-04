@@ -1,0 +1,22 @@
+<form class="standardForm" id="classRegForm" name="classRegForm">
+<p>
+Select up to three classes for next semester.<br/>
+If a class already has 30 students registered,<br/>
+Full class will not be available to select. <br/>	
+</p>
+
+<input type="hidden" name="action" id="action" value="classReg"/>
+<fieldset id="classesFieldSet" name="classesFieldSet">
+
+</fieldset>
+<br/>
+<input type="button" onclick="JavaScript:classRegForm_Submit();" value="ENTER" id="submitButton" name="submitButton" />
+&nbsp;
+<input type="button" onclick="JavaScript:classRegForm_Load();" value="RESET" id="resetButton" name="resetButton" />
+</form>
+
+<script type="text/javascript">
+$(document).ready(function() {
+classRegForm_Load();
+}); 
+</script>

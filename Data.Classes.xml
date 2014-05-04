@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes>
+	<class>
+		<number>CIST2351</number>
+		<name>PHP Programming</name>
+		<limit>30</limit>
+		<actual>22</actual>
+	</class>
+	<class>
+		<number>CIST2931</number>
+		<name>Advanced system project</name>
+		<limit>30</limit>
+		<actual>0</actual>
+	</class>
+	<class>
+		<number>HUMN1101</number>
+		<name>Introduction to Humanities</name>
+		<limit>30</limit>
+		<actual>25</actual>
+	</class>
+	<class>
+		<number>CIST1520</number>
+		<name>Scripting Technologies I</name>
+		<limit>30</limit>
+		<actual>15</actual>
+	</class>
+	<class>
+		<number>CIST2381</number>
+		<name>MOBILE APP DEVELOPMENT</name>
+		<limit>30</limit>
+		<actual>28</actual>
+	</class>
+	<class>
+		<number>CIST1305</number>
+		<name>PROGRAM DESIGN AND DEVELOPMENT</name>
+		<limit>30</limit>
+		<actual>7</actual>
+	</class>
+	<class>
+		<number>CIST1521</number>
+		<name>SCRIPTING TECHNOLOGIES II</name>
+		<limit>30</limit>
+		<actual>27</actual>
+	</class>
+	<class>
+		<number>MATH1111</number>
+		<name>COLLEGE ALGEBRA</name>
+		<limit>30</limit>
+		<actual>8</actual>
+	</class>
+</classes>

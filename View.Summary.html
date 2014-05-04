@@ -1,0 +1,41 @@
+<form class="standardForm" id="summaryForm" name="summaryForm">
+	<p>
+		Your registration for next semester is complete.
+	</p>
+	<input type="hidden" name="action" id="action" value="complete"/>
+	<fieldset>
+		<div class="summaryBlock">
+			<label>User Name:</label>
+			<span name="userNameSpan" id="userNameSpan"></span>
+		</div>
+		<div class="summaryBlock">
+			<label>Name:</label>
+			<span name="nameSpan" id="nameSpan"></span>
+		</div>
+		<div class="summaryBlock">
+			<label>Major:</label>
+			<span name="majorSpan" id="majorSpan"></span>
+		</div>
+		<div class="summaryBlock">
+			<label>Classes:</label>
+			<span name="class1Span" id="class1Span"></span>
+		</div>
+		<div class="summaryBlock">
+			<label>&nbsp;</label>
+			<span name="class2Span" id="class2Span"></span>
+		</div>
+		<div class="summaryBlock">
+			<label>&nbsp;</label>
+			<span name="class3Span" id="class3Span"></span>
+		</div>
+	</fieldset>
+	<br/>
+	<input type="button" onclick="JavaScript:summaryForm_Submit();" value="Done" id="submitButton" name="submitButton" />
+	&nbsp;
+	<input type="button" onclick="JavaScript:summaryForm_Load();" value="Reload" id="resetButton" name="resetButton" />
+</form>
+<script type="text/javascript">
+	$(document).ready(function() {
+		summaryForm_Load();
+	}); 
+</script>

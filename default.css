@@ -1,0 +1,62 @@
+body {
+	background-color:white; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	color: #black;
+}
+p {
+ font-size: 13px; 
+ font-weight: 100; 
+  color: black;
+  margin: center;
+}
+input, select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: #030303;
+}
+input[type=button], input[type=reset]{
+	width: 80px;
+}
+a, a:visited {
+	color: brown;
+}
+#navDiv {
+	float: left;
+}
+#contentDiv {
+	margin-left: 80px;
+	float: left;
+	margin-top: 20px;
+}
+h1 {
+	font-size: 14pt;
+	font-weight: bold;
+}
+fieldset {
+	background-color: #f0f0f0;
+	border: .1px solid black;
+	width: 300px;
+	height: 120px;
+}
+footer {font-size: small;
+		color:black;
+        text-align:left;
+  		clear:right;
+        padding-bottom:122px;
+			}
+.standardForm {
+	margin-bottom: 315px;
+}
+.standardForm label {
+	display: inline-block;
+	width: 120px;
+}
+.standardForm .wide {
+	display: inline-block;
+	white-space: nowrap;
+}
+.summaryBlock {
+	margin-top: 82px;
+	margin-left: 240px;
+}

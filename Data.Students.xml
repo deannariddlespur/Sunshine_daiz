@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+
+<student>
+		<username>berta davis</username>
+	
+<major>Physics</major>
+		<name>Berta Davis</name>
+	
+<classesTaken>
+			<classTaken>HUMN1101</classTaken>
+
+<classTaken>CIST1520</classTaken>
+	
+<classTaken>CIST1305</classTaken>
+	
+</classesTaken>
+	</student>
+<student><username>Jeff</username><major/><name/>
+<classesTaken><classTaken/><classTaken/><classTaken/></classesTaken>
+</student><student>
+<username>g</username><major/>
+<name/><classesTaken><classTaken/><classTaken/><classTaken/>
+</classesTaken></student><student>
+<username>f</username><major/><name/>
+<classesTaken><classTaken/><classTaken/><classTaken/></classesTaken>
+</student><student><username>jeff</username><major/><name/>
+<classesTaken><classTaken/><classTaken/><classTaken/></classesTaken>
+</student><student><username>JEFF</username><major/><name/>
+<classesTaken><classTaken/><classTaken/><classTaken/></classesTaken>
+</student></students>
+

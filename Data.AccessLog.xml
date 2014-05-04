@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+ <event>
+ <ipAddress>::1</ipAddress>
+<userName>JEFF</userName>
+<password>321</password>   <!-- PASSWORD  FOR ME -->
+<userEvent>register</userEvent>
+<result>success</result>
+</event>
+ <event>
+<ipAddress>::1</ipAddress>
+<userName>dorothy</userName>  <!-- PASSWORD  FOR DOROTHY -->
+<password>123</password>
+<userEvent>login</userEvent>
+<result>success</result>
+</event>
+ <event>
+ <ipAddress>::1</ipAddress>
+ <userName>THEJEFFADMIN</userName>
+ <password>n/a</password>
+ <userEvent>register</userEvent>
+ <eventDateTime>2014-05-04 13:12:22</eventDateTime>
+ <result>success</result>
+ </event>
+  <event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 01:47:32</eventDateTime><result>success</result></event>
+<event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 02:13:22</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 02:47:39</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 02:48:22</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 03:01:51</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 03:04:52</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 03:09:13</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 03:09:59</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 03:10:38</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 03:12:32</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 03:13:48</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 03:16:13</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 03:17:11</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 03:26:51</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 03:30:27</eventDateTime><result>success</result></event><event><ipAddress>::1</ipAddress><userName>JEFF</userName><password>321</password><userEvent>login</userEvent><eventDateTime>2014-05-04 03:45:39</eventDateTime><result>success</result></event></events>

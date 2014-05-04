@@ -1,0 +1,25 @@
+<form class="standardForm" id="profileForm" name="profileForm">
+<p> 
+ EDIT YOUR PROFILE
+</p>
+<input type="hidden" name="action" id="action" value="profile"/>
+<fieldset>
+<label>Userid:</label>
+<input type="text" name="userNameTextBox" id="userNameTextBox" readonly="readonly" maxlength="10">
+<br/>
+<label>Name:</label>
+<input type="text" name="nameTextBox" id="nameTextBox" maxlength="30">
+<br/>
+<label>Major:</label>
+<input type="text" name="majorTextBox" id="majorTextBox" maxlength="30">
+</fieldset>
+<br/>
+<input type="button" onclick="JavaScript:profileForm_Submit();" value="ENTER" id="submitButton" name="submitButton" />
+&nbsp;
+<input type="button" onclick="JavaScript:profileForm_Load();" value="RESET" id="resetButton" name="resetButton" />
+</form>
+<script type="text/javascript">
+	$(document).ready(function() {
+		profileForm_Load();
+	}); 
+</script>

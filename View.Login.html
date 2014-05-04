@@ -1,0 +1,29 @@
+<form class="standardForm" name="loginForm" id="loginForm">
+<p>
+	ENTER YOUR CREDENTIALS TO START THE REGISTRATION PROCESS
+</p>
+
+<input type="hidden" name="action" id="action" value="authenticate"/>
+
+<fieldset>
+<label>User ID:</label>
+<input type="text" name="userNameTextBox" id="userNameTextBox" maxlength="10">
+<br/>
+<label>Password:</label>
+<input type="text" name="passwordTextBox" id="passwordTextBox" maxlength="10">
+<br/> <br><br/>
+<input type="checkbox" name="conditionalCreateCheckBox" id="conditionalCreateCheckBox" value="1" checked="checked" />
+
+<label class="wide" for="conditionalCreateCheckBox">Create userid and password</label>
+</fieldset>
+
+<br/>
+<input type="button" onclick="JavaScript:loginForm_Submit();" value="ENTER" id="submitButton" name="submitButton" />
+&nbsp;
+<input type="reset" value="RESET" id="resetButton" name="resetButton" />
+</form>
+<script type="text/javascript">
+	$(document).ready(function() {
+		loginForm_Load();
+	}); 
+</script>
